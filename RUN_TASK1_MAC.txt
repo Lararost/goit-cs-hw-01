@@ -1,0 +1,36 @@
+ЩО РОБИТИ НА MAC
+
+1. Розпакуй цю папку на Desktop.
+2. Перейменуй папку в:
+   goit-cs-hw-01
+
+3. У Terminal:
+   nasm -v
+
+4. Якщо NASM не встановлений і є Homebrew:
+   brew install nasm
+
+5. Далі:
+   cd ~/Desktop/goit-cs-hw-01
+   nasm -f bin task1.asm -o task1.com
+
+6. Відкрий DOSBox і введи:
+   mount c "/Users/ТВОЄ_ІМЯ/Desktop/goit-cs-hw-01"
+   c:
+   dir
+   task1.com
+
+7. Має з'явитися:
+   Result: 6
+
+8. Зроби скріншот і збережи його як:
+   task1_result.png
+
+9. Для GitHub достатньо:
+   task1.asm
+   task2.py
+   README.md
+   task1_result.png
+
+RUN_TASK1_MAC.txt можна залишити або не завантажувати.
+task1.com у GitHub завантажувати не обов'язково.
